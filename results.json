@@ -1,0 +1,21 @@
+{
+  "Pandas Chunking": {
+    "status": "success",
+    "peak_mb": 106.796875,
+    "time_s": 98.35630822181702,
+    "mean": 500.00311279296875,
+    "rows": 256000000
+  },
+  "Dask DataFrame": {
+    "status": "success",
+    "peak_mb": 955.484375,
+    "time_s": 48.47981524467468,
+    "mean": 500.00288,
+    "partitions": 269
+  },
+  "Standard Pandas": {
+    "status": "MemoryError",
+    "peak_mb": 2067.01953125,
+    "time_s": 23.539823055267334
+  }
+}
